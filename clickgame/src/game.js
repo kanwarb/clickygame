@@ -40,6 +40,7 @@ class game extends Component {
             <h1>Click on image only once to win</h1>
             {crafts.map(craft => (
               <Card
+                scoreCount={this.scoreCount}
                 id={craft.id}
                 key={craft.id}
                 image={craft.image}
