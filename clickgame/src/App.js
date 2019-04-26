@@ -1,25 +1,16 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
-import Wrapper from './components/Wrapper';
-import Card from "./components/Card";
-import friends from "./clickcard.json"
-import Container from "./components/Container";
+import game from "./game";
 
 function App() {
-
+  
   return (
+    <Router>
     <div className="App">
-        <h1 className="text-center">You can click any Character only once</h1>
-          {friends.map(friend => (
-            <Card
-              id={friend.id}
-              key={friend.id}
-              image={friend.image}
-            />
-
-          ))}
-        </div>
+      <Route exact path="/" component={game} />
+     </div>
+     </Router>
   );
 }
 
