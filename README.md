@@ -15,3 +15,4 @@
 *   Bootstrap 4
 
 ### Preview of the App
+![Clicky Game](/public/images/game.png)
