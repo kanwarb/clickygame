@@ -1,6 +1,6 @@
 {
   "name": "clickgame",
-  "homepage": "https://kanwarb.github.io/clickygame/clickgame",
+  "homepage": "https://kanwarb.github.io/clickygame",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
