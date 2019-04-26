@@ -1,4 +1,4 @@
-### This is a React Client only Game it allows 
+### This app displays
  
 [Play it here](https://kanwarb.github.io/clickygame/).
 
